@@ -21,9 +21,9 @@ Test code is included in dp_div.py
 ## Examples (Python)
 Here are three examples of the divergence between two 2-d gaussian distribution
 
-![](https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg?width=10)
+![](https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg){:height="50%" width="50%"}
 *dp_div=0.101*
-![](https://github.com/tbright17/dp_divergence/raw/master/examples/medium_0.572.jpg?width=10)
+![](https://github.com/tbright17/dp_divergence/raw/master/examples/medium_0.572.jpg){:height="50%" width="50%"}
 *dp_div=0.572*
-![](https://github.com/tbright17/dp_divergence/raw/master/examples/large_0.999.jpg?width=10)
+![](https://github.com/tbright17/dp_divergence/raw/master/examples/large_0.999.jpg){:height="50%" width="50%"}
 *dp_div=0.999*
