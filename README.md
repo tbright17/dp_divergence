@@ -23,6 +23,11 @@ Test code is included in dp_div.py
 Here are three examples of the divergence between two 2-d Gaussian distributions
 
 <img style="float: middle;" src="https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg">
+<em>dp_div=0.101</em>
+<img style="float: middle;" src="https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg">
+<em>dp_div=0.572</em>
+<img style="float: middle;" src="https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg">
+<em>dp_div=0.999</em>
 
 ![](https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg)
 *dp_div=0.101*
