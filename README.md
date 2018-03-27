@@ -20,9 +20,9 @@ Test code is included in dp_div.py
 
 ## Examples (Python)
 Here are three examples of the divergence between two 2-d gaussian distribution.
-![Alt text](/examples/small_0.101.jpg|width=100)
+![Alt text](/examples/small_0.101.jpg | width=100)
 *dp_div=0.101*
-![Alt text](/examples/medium_0.572.jpg|width=100)
+![Alt text](/examples/medium_0.572.jpg | width=100)
 *dp_div=0.572*
-![Alt text](/examples/large_0.999.jpg|width=100)
+![Alt text](/examples/large_0.999.jpg | width=100)
 *dp_div=0.999*
