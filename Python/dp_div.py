@@ -79,10 +79,10 @@ def dp_div(X1, X2):
 # test code
 if __name__ == '__main__':
     X1 = np.random.multivariate_normal([0,0],[[1,0],[0,1]],1000)
-    X2 = np.random.multivariate_normal([10,10],[[1,0],[0,1]],1000)
+    X2 = np.random.multivariate_normal([5,5],[[1,0],[0,1]],1000)
+    dp_div_value = dp_div(X1, X2)
     plt.scatter(X1[:,0],X1[:,1],color='red')
     plt.scatter(X2[:,0],X2[:,1],color='blue')
     plt.show()
-    dp_div_value = dp_div(X1,X2)
     print dp_div_value
 
