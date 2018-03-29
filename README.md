@@ -1,7 +1,9 @@
 # dp_divergence
 Calculation of the DP divergence of two datasets
+
 ## Requirements
 Python 2.7 with numpy, scipy and matplotlib
+
 or Matlab
 
 ## Install
@@ -12,21 +14,19 @@ mex generate_graph.c
 ```
 in Matlab to compile the c code for generating Minimum Spanning Tree
 
-Then, run test.m
+Run test.m
 ### Python version
 ```
 from dp_div import dp_div
 ```
 Test code is included in dp_div.py
 ## Examples (Python)
-Here are three examples of the divergence between two 2-d gaussian distribution
+Here are three examples of the divergence between two 2-d Gaussian distributions
 
-![](https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg)
-*dp_div=0.101*
-![](https://github.com/tbright17/dp_divergence/raw/master/examples/medium_0.572.jpg)
-*dp_div=0.572*
-![](https://github.com/tbright17/dp_divergence/raw/master/examples/large_0.999.jpg)
-*dp_div=0.999*
+| [![small](https://github.com/tbright17/dp_divergence/raw/master/examples/small_0.101.jpg)](dp_div=0.101)  | [![medium](https://github.com/tbright17/dp_divergence/raw/master/examples/medium_0.572.jpg)](dp_div=0.572) | [![large](https://github.com/tbright17/dp_divergence/raw/master/examples/large_0.999.jpg)](dp_div=0.999) |
+|:---:|:---:|:---:|
+| dp_div=0.101 | dp_div=0.572 | dp_div=0.999 |
+
 ## Citation
 If you find this repo is useful, please kindly cite the following papers:
 
