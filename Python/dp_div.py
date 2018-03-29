@@ -66,7 +66,7 @@ def dp_div(X1, X2):
     nodes_dim2 = [nodeX1X2[index].tolist() for index in listOfEdges[1]]
     S = len([i for i in range(len(nodes_dim1)) if nodes_dim1[i] != nodes_dim2[i]])
 
-    dp = float(1)-float((m+n)*S)/float(2*m*n)
+    dp = float(1)-float(2*(S-options["nTrees"])/(N*options["nTrees"]))
 
     if dp < 0:
         return 0

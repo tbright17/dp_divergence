@@ -86,7 +86,7 @@ end
 
 S = sum(nodeXY(listOfEdges(:,1)) ~= nodeXY(listOfEdges(:,2)));
 
-dp = 1-((m+n)/(2*m*n))*(S);
+dp = 1 - 2*(S-options.nTrees) / (N * options.nTrees);
 
 if dp < 0
     dp = 0;
